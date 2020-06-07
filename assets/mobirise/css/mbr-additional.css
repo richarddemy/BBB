@@ -4,6 +4,9 @@
 
 
 
+.mbr-section-btn .btn {
+  border-radius: 50px !important;
+}
 body {
   font-family: Be Vietnam;
 }
@@ -94,7 +97,7 @@ body {
   border-radius: 4px;
 }
 .bg-primary {
-  background-color: #f38881 !important;
+  background-color: #ff2121 !important;
 }
 .bg-success {
   background-color: #655495 !important;
@@ -110,8 +113,8 @@ body {
 }
 .btn-primary,
 .btn-primary:active {
-  background-color: #f38881 !important;
-  border-color: #f38881 !important;
+  background-color: #ff2121 !important;
+  border-color: #ff2121 !important;
   color: #ffffff !important;
 }
 .btn-primary:hover,
@@ -119,18 +122,18 @@ body {
 .btn-primary.focus,
 .btn-primary.active {
   color: #ffffff !important;
-  background-color: #f38881;
-  border-color: #f38881;
+  background-color: #ff2121;
+  border-color: #ff2121;
 }
 .btn-primary.disabled,
 .btn-primary:disabled {
   color: #ffffff !important;
-  background-color: #f38881 !important;
-  border-color: #f38881 !important;
+  background-color: #ff2121 !important;
+  border-color: #ff2121 !important;
 }
 .btn-primary:hover {
-  background-color: #ef5c52 !important;
-  border-color: #ef5c52 !important;
+  background-color: #ed0000 !important;
+  border-color: #ed0000 !important;
 }
 .btn-secondary,
 .btn-secondary:active {
@@ -153,8 +156,8 @@ body {
   border-color: #341d74 !important;
 }
 .btn-secondary:hover {
-  background-color: #f38881 !important;
-  border-color: #f38881 !important;
+  background-color: #ff2121 !important;
+  border-color: #ff2121 !important;
 }
 .btn-info,
 .btn-info:active {
@@ -304,22 +307,22 @@ body {
 .btn-primary-outline,
 .btn-primary-outline:active {
   background: none;
-  border-color: #f38881;
-  color: #f38881;
+  border-color: #ff2121;
+  color: #ff2121;
 }
 .btn-primary-outline:hover,
 .btn-primary-outline:focus,
 .btn-primary-outline.focus,
 .btn-primary-outline.active {
   color: #ffffff !important;
-  background: #f38881 !important;
-  border-color: #f38881;
+  background: #ff2121 !important;
+  border-color: #ff2121;
 }
 .btn-primary-outline.disabled,
 .btn-primary-outline:disabled {
   color: #ffffff !important;
-  background-color: #f38881 !important;
-  border-color: #f38881 !important;
+  background-color: #ff2121 !important;
+  border-color: #ff2121 !important;
 }
 .btn-secondary-outline {
   border: 1px solid;
@@ -345,8 +348,8 @@ body {
   border-color: #341d74 !important;
 }
 .btn-secondary-outline:hover {
-  background-color: #f38881 !important;
-  border-color: #f38881 !important;
+  background-color: #ff2121 !important;
+  border-color: #ff2121 !important;
 }
 .btn-info-outline {
   border: 1px solid;
@@ -490,7 +493,7 @@ body {
   color: #17161a !important;
 }
 .text-primary {
-  color: #f38881 !important;
+  color: #ff2121 !important;
 }
 .text-secondary {
   color: #341d74 !important;
@@ -515,7 +518,7 @@ body {
 }
 a.text-primary:hover,
 a.text-primary:focus {
-  color: #ea3024 !important;
+  color: #ba0000 !important;
 }
 a.text-secondary:hover,
 a.text-secondary:focus {
@@ -543,7 +546,7 @@ a.text-white:focus {
 }
 a.text-black:hover,
 a.text-black:focus {
-  color: #f38881 !important;
+  color: #ff2121 !important;
 }
 .alert-success {
   background-color: #655495;
@@ -557,25 +560,34 @@ a.text-black:focus {
 .alert-danger {
   background-color: #ebeaed;
 }
+.mbr-section-btn a.btn:not(.btn-form) {
+  border-radius: 50px;
+}
 .mbr-section-btn a.btn:not(.btn-form):hover,
 .mbr-section-btn a.btn:not(.btn-form):focus {
   box-shadow: none;
 }
+.mbr-gallery-filter li a {
+  border-radius: 50px !important;
+}
 .mbr-gallery-filter li.active .btn {
-  background-color: #f38881;
-  border-color: #f38881;
+  background-color: #ff2121;
+  border-color: #ff2121;
   color: #ffffff;
 }
 .mbr-gallery-filter li.active .btn:focus {
   box-shadow: none;
 }
+.nav-tabs .nav-link {
+  border-radius: 50px !important;
+}
 a,
 a:hover {
-  color: #f38881;
+  color: #ff2121;
 }
 .mbr-plan-header.bg-primary .mbr-plan-subtitle,
 .mbr-plan-header.bg-primary .mbr-plan-price-desc {
-  color: #ffffff;
+  color: #ffeded;
 }
 .mbr-plan-header.bg-success .mbr-plan-subtitle,
 .mbr-plan-header.bg-success .mbr-plan-price-desc {
@@ -594,6 +606,9 @@ a:hover {
   color: #ffffff;
 }
 /* Scroll to top button*/
+#scrollToTop a {
+  border-radius: 50px;
+}
 .form-control {
   font-family: 'Be Vietnam', sans-serif;
   font-size: 1.5625rem;
@@ -604,15 +619,21 @@ a:hover {
   font-size: 2.5rem;
 }
 blockquote {
-  border-color: #f38881;
+  border-color: #ff2121;
 }
 /* Forms */
 .mbr-form .btn {
   margin: .4rem 0;
 }
+.mbr-form .input-group-btn a.btn {
+  border-radius: 50px !important;
+}
+.mbr-form .input-group-btn button[type="submit"] {
+  border-radius: 50px !important;
+}
 .jq-selectbox li:hover,
 .jq-selectbox li.selected {
-  background-color: #f38881;
+  background-color: #ff2121;
   color: #ffffff;
 }
 .jq-selectbox .jq-selectbox__trigger-arrow,
@@ -625,14 +646,14 @@ blockquote {
 .jq-selectbox:hover .jq-selectbox__trigger-arrow,
 .jq-number__spin.minus:hover:after,
 .jq-number__spin.plus:hover:after {
-  border-top-color: #f38881;
-  border-bottom-color: #f38881;
+  border-top-color: #ff2121;
+  border-bottom-color: #ff2121;
 }
 .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
 .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
 .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current {
-  color: #000000 !important;
-  background-color: #f38881 !important;
+  color: #ffffff !important;
+  background-color: #ff2121 !important;
   box-shadow: none !important;
 }
 .xdsoft_datetimepicker .xdsoft_calendar td:hover,
@@ -752,7 +773,7 @@ blockquote {
   transition: all cubic-bezier(0.4, 0, 0.2, 1) 0.4s;
 }
 .cid-rRCAwhHFKb .dropdown-menu .dropdown-item:hover {
-  color: #f38881 !important;
+  color: #ff2121 !important;
   background-color: #fafafa;
 }
 .cid-rRCAwhHFKb .dropdown.open .dropdown-toggle[aria-expanded="true"]::after {
@@ -996,7 +1017,7 @@ blockquote {
   transition: all cubic-bezier(0.4, 0, 0.2, 1) 0.4s;
 }
 .cid-rRCAwhHFKb a.nav-link:hover {
-  color: #f38881 !important;
+  color: #ff2121 !important;
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .cid-rRCAwhHFKb .navbar {
@@ -1409,7 +1430,76 @@ blockquote {
 .cid-rRHGhd2JmI .mbr-section-btn {
   color: #655495;
 }
+.cid-s1bhAgVJmH {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #ffffff;
+}
+.cid-s1bhAgVJmH .content__block {
+  background: rgba(66, 0, 255, 0.1);
+  border-radius: 4px;
+  padding: 30px;
+}
+.cid-s1bhAgVJmH .mbr-section-title {
+  margin-bottom: 20px;
+}
+.cid-s1bhAgVJmH .text__subt {
+  margin-bottom: 20px;
+}
+.cid-s1bhAgVJmH .mbr-text {
+  margin: 10px 0 20px;
+}
+.cid-s1bhAgVJmH .subscribe__form {
+  padding-bottom: 50px;
+}
+.cid-s1bhAgVJmH .form-group {
+  margin-bottom: 0;
+  padding-right: 0;
+}
+.cid-s1bhAgVJmH .form-control {
+  border: none;
+  height: 50px;
+  padding: 14px 18px;
+  background-color: rgba(23, 22, 26, 0.04) !important;
+  font-size: 16px;
+  color: #191f23;
+  border-radius: 4px;
+}
+.cid-s1bhAgVJmH .input-group-btn {
+  padding-left: 0;
+}
+.cid-s1bhAgVJmH .input-group-btn .btn {
+  height: 50px;
+  font-weight: 600;
+  padding: 14px 18px;
+}
+.cid-s1bhAgVJmH .mbr-form .input-group-btn a.btn {
+  border-radius: 4px !important;
+}
+.cid-s1bhAgVJmH .mbr-form .btn {
+  margin: 0;
+}
+.cid-s1bhAgVJmH input::-webkit-input-placeholder {
+  color: #191f23;
+  opacity: .8;
+}
+.cid-s1bhAgVJmH input::-moz-placeholder {
+  color: #191f23;
+  opacity: .8;
+}
+.cid-s1bhAgVJmH .divider {
+  background-color: #191f23;
+  height: 1px;
+  opacity: 0.6;
+}
+@media (max-width: 767px) {
+  .cid-s1bhAgVJmH .divider {
+    margin: 0 15px;
+  }
+}
 .cid-s1aJhk907x {
+  padding-top: 30px;
+  padding-bottom: 45px;
   background-image: url("../../../assets/images/background1.jpg");
 }
 .cid-s1aJhk907x .btn {
@@ -1637,7 +1727,7 @@ blockquote {
   color: #341d74;
 }
 .cid-rRHGcuHwym H4:hover .sign {
-  color: #f38881;
+  color: #ff2121;
 }
 .cid-rRHGcuHwym .panel-text {
   color: #655495;
@@ -1794,7 +1884,7 @@ blockquote {
   background-color: transparent !important;
 }
 .cid-rRHGtrRSeJ .mbr-section-btn .btn-secondary-outline:hover {
-  color: #f38881 !important;
+  color: #ff2121 !important;
 }
 .cid-rRHGtrRSeJ .card__text1,
 .cid-rRHGtrRSeJ .card__text2,
